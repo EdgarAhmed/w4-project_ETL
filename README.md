@@ -24,7 +24,7 @@ Se extraen datos de las siguientes webs.
 
 De la OCDE se obtiene datos de la renta per cápita de los países seleccionados y las emisiones de CO2 per cápita. Esta extracción se hace con “selenium” y descarga directa respectivamente (ejemplo en el siguiente gif).
 
-
+![](https://github.com/EdgarAhmed/w4-project_ETL/blob/main/pics/ejemplo.gif)
 
 
 De “OurWorldInData” se extraen datos de incidencia poblacional del cancer en España, supervivencia de cáncer a 5 años en todo el mundo y distribución de tumores en toda la población y estandarizados en toda la población. 
@@ -34,7 +34,9 @@ De “OurWorldInData” se extraen datos de incidencia poblacional del cancer en
 Una vez obtenidos los CSVs, se cargan a Jupyter. Se eliminan columnas, se homogenizan los distintos valores que pueden aparecer.
 
 3.	Subida a base de datos. 
-En este caso, se suben a Mongo y a SQL. El motivo principal, practicar.
+En este caso, se suben a sql.
+
+![](https://github.com/EdgarAhmed/w4-project_ETL/blob/main/pics/Screenshot%202023-11-06%20at%2018.13.28.png)
 
 Fuentes: 
 
